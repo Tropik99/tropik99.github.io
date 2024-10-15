@@ -1,14 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quizz Cybersécurité - AFPA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <h1><center>BIENVENUE SUR LE SITE DE TROPIK99</center></h1>
-    <H2>Version 1</H2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error necessitatibus aspernatur non placeat. At temporibus minus ratione dolor nobis quam esse modi fugiat quis rerum aperiam, nam inventore dolorem sunt!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, illum vel. Odio sunt impedit ducimus ea. Perspiciatis consequatur fugit maxime libero perferendis alias distinctio, magni necessitatibus. Assumenda velit vel nobis.</lo></p>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8">
+                <h1 class="text-center mb-4">Quizz Cybersécurité - AFPA <img src="logo.png" alt="Logo AFPA" style="height: 50px; vertical-align: middle; margin-left: 10px;"></h1>
+                <form id="userForm" class="mb-4">
+                    <div class="mb-3">
+                        <label for="userName" class="form-label">Votre nom :</label>
+                        <input type="text" class="form-control" id="userName" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="userFormation" class="form-label">Intitulé de votre formation :</label>
+                        <select class="form-select" id="userFormation" required>
+                            <option value="">Choisissez votre formation</option>
+                            <option value="ADVF">ADVF</option>
+                            <option value="AMECC">AMECC</option>
+                            <option value="AMB">AMB</option>
+                            <option value="APH">APH</option>
+                            <option value="ASMS">ASMS</option>
+                            <option value="CC">CC</option>
+                            <option value="CIMA">CIMA</option>
+                            <option value="CV">CV</option>
+                            <option value="EEB">EEB</option>
+                            <option value="GCF">GCF</option>
+                            <option value="GP">GP</option>
+                            <option value="INDUSTRIE">INDUSTRIE</option>
+                            <option value="ITS">ITS</option>
+                            <option value="MACAR">MACAR</option>
+                            <option value="PEINTREBAT">PEINTREBAT</option>
+                            <option value="PMN">PMN</option>
+                            <option value="TMI">TMI</option>
+                            <option value="TPI">TPI</option>
+                        </select>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary btn-lg">Commencer le quizz</button>
+                        <!-- Nouveau bouton pour l'accès aux ressources -->
+                         <button class="btn btn-outline-primary" onclick="openLoginModal()">Accéder aux Ressources</button>
+
+                        <!-- Modal pour l'authentification -->
+                        <div id="loginModal" class="modal">
+                            <div class="modal-content">
+                                <h2>Connexion formateur</h2>
+                                <input type="text" id="username" placeholder="Nom d'utilisateur" required>
+                                <input type="password" id="password" placeholder="Mot de passe" required>
+                            <br>
+                            <button class="btn-submit" onclick="checkCredentials()">Se connecter</button>
+                            <button class="btn-close" onclick="closeLoginModal()">Annuler</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Fonction pour ouvrir le modal de connexion
+        function openLoginModal() {
+            document.getElementById('loginModal').style.display = 'flex';
+        }
+
+        // Fonction pour fermer le modal
+        function closeLoginModal() {
+            document.getElementById('loginModal').style.display = 'none';
+        }
+
+        // Vérification des identifiants
+        function checkCredentials() {
+            const correctUsername = 'formateur';
+            const correctPassword = 'formateur-quizz';
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            if (username === correctUsername && password === correctPassword) {
+                // Redirection vers la page ressources.html si les identifiants sont corrects
+                window.location.href = 'ressources.html';
+            } else {
+                alert('Identifiants incorrects, veuillez réessayer.');
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

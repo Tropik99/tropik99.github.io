@@ -1,0 +1,203 @@
+:root {
+    --afpa-blue: #3375c3;
+    --afpa-dark-blue: #265c9f;
+    --afpa-light-gray: #f2f2f2;
+    --afpa-medium-gray: #d9d9d9;
+    --afpa-dark-gray: #4d4d4d;
+}
+
+/* Ajout de l'image d'arrière-plan */
+body {
+    background-image: url('bg.jpg'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Couvre toute la surface */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    background-attachment: fixed; /* Fixe l'image en arrière-plan lors du défilement */
+    height: 100vh; /* Hauteur de la page pour s'assurer que l'image remplit l'écran */
+    margin: 0; /* Supprime les marges par défaut */
+    font-family: Arial, sans-serif;
+    color: var(--afpa-dark-gray);
+    
+    /* Propriétés Flexbox pour centrer le contenu */
+    display: flex; 
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+}
+
+.container {
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.9); /* Légèrement transparent pour mieux s'harmoniser avec le fond */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    color: var(--afpa-blue);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-label {
+    color: var(--afpa-dark-gray);
+    font-weight: bold;
+}
+
+.form-control, .form-select {
+    border-color: var(--afpa-medium-gray);
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--afpa-blue);
+    box-shadow: 0 0 0 0.2rem rgba(51, 117, 195, 0.25);
+}
+
+.btn-primary {
+    background-color: var(--afpa-blue);
+    border-color: var(--afpa-blue);
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: var(--afpa-dark-blue);
+    border-color: var(--afpa-dark-blue);
+}
+
+.question-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.timer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--afpa-blue);
+}
+
+.correct {
+    background-color: #28a745 !important;
+    color: #ffffff !important;
+}
+
+.incorrect {
+    background-color: #dc3545 !important;
+    color: #ffffff !important;
+}
+
+/* Styles pour les options de réponse */
+.btn-outline-primary {
+    color: var(--afpa-blue);
+    border-color: var(--afpa-blue);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--afpa-blue);
+    color: #ffffff;
+}
+
+/* Styles pour les résultats */
+#userResult {
+    background-color: var(--afpa-light-gray);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#topScores {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.list-group-item {
+    background-color: var(--afpa-light-gray);
+    border-color: var(--afpa-medium-gray);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
+}
+
+ /* Styles pour le modal d'authentification */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content input {
+    margin: 15px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid var(--afpa-medium-gray);
+    border-radius: 5px;
+}
+
+.btn-submit {
+    background-color: var(--afpa-blue);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-submit:hover {
+    opacity: 0.9;
+}
+
+.btn-close {
+    background-color: #dc3545; /* Rouge pour annuler */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: auto; /* Ajustement pour que le bouton soit de la largeur du texte */
+}
+
+.btn-close:hover {
+    opacity: 0.9;
+}
+
+/* Centrage de la modale */
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
