@@ -3,230 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ressources du Quizz - Cybersécurité</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Ressources du Quiz sur la Sécurité Informatique</title>
     <style>
         body {
-            background-color: #f4f4f4;
             font-family: Arial, sans-serif;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 50px auto;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
             padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            background-color: #f4f4f4;
         }
-
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
         h1 {
+            color: #2c3e50;
             text-align: center;
-            color: var(--afpa-blue);
             margin-bottom: 30px;
         }
-
         h2 {
-            color: var(--afpa-dark-blue);
-            margin-top: 20px;
-        }
-
-        p {
-            margin-bottom: 20px;
-        }
-
-        .resource-link {
-            color: var(--afpa-blue);
-            text-decoration: none;
-        }
-
-        .resource-link:hover {
-            text-decoration: underline;
-        }
-
-        .back-button {
-            text-align: center;
+            color: #3498db;
             margin-top: 30px;
         }
-
-        .btn {
-            padding: 10px 15px;
-            background-color: #007bff;
-            color: white;
-            border: none;
+        ol {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 30px;
+            background-color: #ecf0f1;
+            padding: 20px;
             border-radius: 5px;
+        }
+        strong {
+            color: #2980b9;
+            font-size: 1.1em;
+        }
+        a {
+            color: #e74c3c;
             text-decoration: none;
         }
-
-        .btn:hover {
-            background-color: #0056b3;
-        }
-
-        .answer {
-            margin-bottom: 20px;
-        }
-        .answer h3 {
-            color: #000000;
-        }
-        .answer p {
-            margin-bottom: 10px;
-        }
-        .answer a {
-            color: #3375c3;
+        a:hover {
             text-decoration: underline;
         }
-    </style>
+        #back-button {
+            display: block;
+            width: 200px;
+            margin: 30px auto 0;
+            padding: 10px;
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        #back-button:hover {
+            background-color: #2980b9;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Ressources du Quizz - Cybersécurité</h1>
-
-        <!-- Réponse 1 -->
-    <div class="answer">
-        <h3>1. Qu'est-ce que le phishing ?</h3>
-        <p>Le phishing est une technique de fraude en ligne utilisée pour obtenir des informations sensibles, comme des mots de passe, en se faisant passer pour une entité légitime.</p>
-        <a href="https://fr.wikipedia.org/wiki/Hame%C3%A7onnage" target="_blank">En savoir plus sur le phishing</a>
-    </div>
-
-    <!-- Réponse 2 -->
-    <div class="answer">
-        <h3>2. Quel est un mot de passe sécurisé ?</h3>
-        <p>Un mot de passe sécurisé est complexe, avec une combinaison de lettres majuscules et minuscules, de chiffres et de caractères spéciaux.</p>
-        <a href="https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/gestion-mots-passe" target="_blank">En savoir plus sur les mots de passe sécurisés</a>
-    </div>
-
-    <!-- Réponse 3 -->
-    <div class="answer">
-        <h3>3. Que signifie HTTPS ?</h3>
-        <p>HTTPS signifie Hyper Text Transfer Protocol Secure, un protocole utilisé pour sécuriser les communications sur Internet.</p>
-        <a href="https://fr.wikipedia.org/wiki/Hypertext_Transfer_Protocol_Secure" target="_blank">En savoir plus sur HTTPS</a>
-    </div>
-
-    <!-- Réponse 4 -->
-    <div class="answer">
-        <h3>4. Quel est le rôle d'un antivirus ?</h3>
-        <p>Un antivirus est conçu pour détecter, prévenir et supprimer les logiciels malveillants.</p>
-        <a href="https://www.kaspersky.fr/resource-center/definitions/what-is-antivirus" target="_blank">En savoir plus sur les antivirus</a>
-    </div>
-
-    <!-- Réponse 5 -->
-    <div class="answer">
-        <h3>5. Qu'est-ce qu'un pare-feu ?</h3>
-        <p>Un pare-feu est un dispositif de sécurité qui surveille et contrôle les connexions réseau, protégeant ainsi contre les intrusions non autorisées.</p>
-        <a href="https://www.cisco.com/c/fr_fr/products/security/firewalls/what-is-a-firewall.html" target="_blank">En savoir plus sur les pare-feux</a>
-    </div>
-
-    <!-- Réponse 6 -->
-    <div class="answer">
-        <h3>6. Que signifie 'malware' ?</h3>
-        <p>Malware est un terme désignant les logiciels malveillants qui visent à endommager ou exploiter des appareils ou des réseaux.</p>
-        <a href="https://fr.wikipedia.org/wiki/Logiciel_malveillant" target="_blank">En savoir plus sur les malwares</a>
-    </div>
-
-    <!-- Réponse 7 -->
-    <div class="answer">
-        <h3>7. Quelle est la meilleure pratique pour les mots de passe ?</h3>
-        <p>La meilleure pratique est de changer régulièrement ses mots de passe et de ne jamais utiliser le même pour plusieurs services.</p>
-        <a href="https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/gestion-mots-passe" target="_blank">En savoir plus sur la gestion des mots de passe</a>
-    </div>
-
-    <!-- Réponse 8 -->
-    <div class="answer">
-        <h3>8. Qu'est-ce qu'un VPN ?</h3>
-        <p>Un VPN (Virtual Private Network) est un réseau privé virtuel qui permet de sécuriser les communications sur Internet.</p>
-        <a href="https://www.cyberghostvpn.com/fr_FR/what-is-vpn" target="_blank">En savoir plus sur les VPN</a>
-    </div>
-
-    <!-- Réponse 9 -->
-    <div class="answer">
-        <h3>9. Comment reconnaître un email frauduleux ?</h3>
-        <p>Un email frauduleux provient souvent d'un expéditeur inconnu, comporte des fautes d'orthographe ou des liens suspects.</p>
-        <a href="https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/phishing" target="_blank">En savoir plus sur la reconnaissance des emails frauduleux</a>
-    </div>
-
-    <!-- Réponse 10 -->
-    <div class="answer">
-        <h3>10. Quelle information ne doit jamais être partagée en ligne ?</h3>
-        <p>Le numéro de carte de crédit ne doit jamais être partagé en ligne sauf sur des sites sécurisés.</p>
-        <a href="https://www.cnil.fr/fr/comment-securiser-les-paiements-en-ligne" target="_blank">En savoir plus sur la sécurité des informations en ligne</a>
-    </div>
-
-    <!-- Réponses 11 à 20 ajoutées -->
-
-    <!-- Réponse 11 -->
-    <div class="answer">
-        <h3>11. Quel est le but d'une mise à jour logicielle ?</h3>
-        <p>Une mise à jour logicielle permet d'ajouter des fonctionnalités, corriger des bugs, et améliorer la sécurité.</p>
-        <a href="https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/mises-a-jour" target="_blank">En savoir plus sur les mises à jour logicielles</a>
-    </div>
-
-    <!-- Réponse 12 -->
-    <div class="answer">
-        <h3>12. Que faire en cas de perte de mot de passe ?</h3>
-        <p>En cas de perte de mot de passe, il est recommandé de le réinitialiser via les options proposées par le service concerné.</p>
-        <a href="https://support.google.com/accounts/answer/41078?hl=fr" target="_blank">En savoir plus sur la réinitialisation de mot de passe</a>
-    </div>
-
-    <!-- Réponse 13 -->
-    <div class="answer">
-        <h3>13. Quel type de réseau est le plus sûr ?</h3>
-        <p>Un réseau privé est généralement plus sûr qu'un réseau public, car il est mieux protégé contre les intrusions.</p>
-        <a href="https://www.francenum.gouv.fr/comprendre-le-numerique/securiser-son-reseau-informatique" target="_blank">En savoir plus sur la sécurité des réseaux</a>
-    </div>
-
-    <!-- Réponse 14 -->
-    <div class="answer">
-        <h3>14. Quelle est la première étape en cas de suspicion de piratage ?</h3>
-        <p>La première étape en cas de suspicion de piratage est de changer immédiatement le mot de passe et d'informer les services concernés.</p>
-        <a href="https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/suspicion-piratage" target="_blank">En savoir plus sur la réaction en cas de piratage</a>
-    </div>
-
-    <!-- Réponse 15 -->
-    <div class="answer">
-        <h3>15. Qu'est-ce qu'un cookie ?</h3>
-        <p>Un cookie est un petit fichier de données stocké sur votre ordinateur par un site web pour conserver des informations de navigation.</p>
-        <a href="https://www.cnil.fr/fr/cookies-traceurs-que-dit-la-loi" target="_blank">En savoir plus sur les cookies</a>
-    </div>
-
-    <!-- Réponse 16 -->
-    <div class="answer">
-        <h3>16. Pourquoi est-il important de sauvegarder ses données ?</h3>
-        <p>Sauvegarder ses données permet de prévenir leur perte en cas de panne ou d'attaque informatique.</p>
-        <a href="https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/sauvegarde" target="_blank">En savoir plus sur la sauvegarde des données</a>
-    </div>
-
-    <!-- Réponse 17 -->
-    <div class="answer">
-        <h3>17. Que signifie 'attaque par force brute' ?</h3>
-        <p>Une attaque par force brute consiste à essayer de deviner un mot de passe en testant toutes les combinaisons possibles.</p>
-        <a href="https://fr.wikipedia.org/wiki/Attaque_par_force_brute" target="_blank">En savoir plus sur les attaques par force brute</a>
-    </div>
-
-    <!-- Réponse 18 -->
-    <div class="answer">
-        <h3>18. Qu'est-ce qu'une attaque DDoS ?</h3>
-        <p>Une attaque DDoS (Distributed Denial of Service) vise à rendre un service indisponible en l'inondant de requêtes.</p>
-        <a href="https://www.kaspersky.fr/resource-center/threats/ddos-attacks" target="_blank">En savoir plus sur les attaques DDoS</a>
-    </div>
-
-    <!-- Réponse 19 -->
-    <div class="answer">
-        <h3>19. Que faire si vous recevez un fichier suspect par email ?</h3>
-        <p>Il est recommandé de ne pas ouvrir le fichier et de le signaler à l'expéditeur ou au service de sécurité concerné.</p>
-        <a href="https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/virus-fichiers-joints-email" target="_blank">En savoir plus sur la gestion des fichiers suspects</a>
-    </div>
-
-    <!-- Réponse 20 -->
-    <div class="answer">
-        <h3>20. Qu'est-ce que la double authentification ?</h3>
-        <p>La double authentification est une couche de sécurité supplémentaire qui nécessite une confirmation supplémentaire après la saisie du mot de passe.</p>
-        <a href="https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/double-authentification" target="_blank">En savoir plus sur la double authentification</a>
-    </div>
-
-        <div class="back-button">
-            <a href="index.html" class="btn">Retour à l'accueil</a>
+        <h1>Ressources du Quiz sur la Sécurité Informatique</h1>
+        <div id="quiz-answers">
+            <h2>Réponses aux questions du quiz</h2>
+            <ol>
+                <li>
+                    <strong>Qu'est-ce que le phishing ?</strong><br>
+                    Réponse : Le phishing est une technique frauduleuse utilisée pour obtenir des informations personnelles en se faisant passer pour une entité de confiance.<br>
+                    <a href="https://www.cnil.fr/fr/definition/phishing" target="_blank">En savoir plus sur le phishing</a>
+                </li>
+                <li>
+                    <strong>Quel est un mot de passe sécurisé ?</strong><br>
+                    Réponse : Un mot de passe sécurisé est long, complexe, unique, et combine lettres (majuscules et minuscules), chiffres et caractères spéciaux.<br>
+                    <a href="https://www.cnil.fr/fr/les-conseils-de-la-cnil-pour-un-bon-mot-de-passe" target="_blank">Conseils pour un bon mot de passe</a>
+                </li>
+                <li>
+                    <strong>Que signifie HTTPS ?</strong><br>
+                    Réponse : HTTPS signifie Hypertext Transfer Protocol Secure. C'est une version sécurisée du protocole HTTP qui crypte les données échangées.<br>
+                    <a href="https://www.cloudflare.com/fr-fr/learning/ssl/what-is-https/" target="_blank">En savoir plus sur HTTPS</a>
+                </li>
+                <li>
+                    <strong>Quel est le rôle d'un antivirus ?</strong><br>
+                    Réponse : Un antivirus détecte, bloque et supprime les logiciels malveillants pour protéger votre ordinateur contre les menaces informatiques.<br>
+                    <a href="https://www.kaspersky.fr/resource-center/definitions/antivirus" target="_blank">En savoir plus sur les antivirus</a>
+                </li>
+                <li>
+                    <strong>Qu'est-ce qu'un pare-feu ?</strong><br>
+                    Réponse : Un pare-feu est un système de sécurité qui contrôle et filtre le trafic entrant et sortant d'un réseau selon des règles prédéfinies.<br>
+                    <a href="https://www.cisco.com/c/fr_fr/products/security/firewalls/what-is-a-firewall.html" target="_blank">En savoir plus sur les pare-feu</a>
+                </li>
+                <li>
+                    <strong>Que signifie 'malware' ?</strong><br>
+                    Réponse : Malware est la contraction de "malicious software", soit logiciel malveillant en français. C'est un terme générique pour tout logiciel conçu pour nuire.<br>
+                    <a href="https://www.malwarebytes.com/malware" target="_blank">En savoir plus sur les malwares</a>
+                </li>
+                <li>
+                    <strong>Quelle est la meilleure pratique pour les mots de passe ?</strong><br>
+                    Réponse : Utilisez un mot de passe unique pour chaque compte, long et complexe, et changez-le régulièrement. L'utilisation d'un gestionnaire de mots de passe est recommandée.<br>
+                    <a href="https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/mot-de-passe" target="_blank">Bonnes pratiques pour les mots de passe</a>
+                </li>
+                <li>
+                    <strong>Qu'est-ce qu'un VPN ?</strong><br>
+                    Réponse : Un VPN (Virtual Private Network) est un service qui crypte votre connexion internet et masque votre adresse IP pour protéger votre confidentialité en ligne.<br>
+                    <a href="https://www.kaspersky.fr/resource-center/definitions/what-is-a-vpn" target="_blank">En savoir plus sur les VPN</a>
+                </li>
+                <li>
+                    <strong>Comment reconnaître un email frauduleux ?</strong><br>
+                    Réponse : Vérifiez l'adresse de l'expéditeur, méfiez-vous des demandes urgentes, des fautes d'orthographe, et des liens suspects. Ne cliquez pas sur les pièces jointes douteuses.<br>
+                    <a href="https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/detecter-un-mail-frauduleux" target="_blank">Comment détecter un email frauduleux</a>
+                </li>
+                <li>
+                    <strong>Quelle information ne doit jamais être partagée en ligne ?</strong><br>
+                    Réponse : Votre numéro de sécurité sociale, vos informations bancaires complètes, et vos mots de passe ne doivent jamais être partagés en ligne.<br>
+                    <a href="https://www.cnil.fr/fr/maitriser-mes-donnees" target="_blank">Maîtriser ses données personnelles</a>
+                </li>
+                <li>
+                    <strong>Quel est le but d'une mise à jour logicielle ?</strong><br>
+                    Réponse : Les mises à jour corrigent les bugs, améliorent les performances et la sécurité, et ajoutent parfois de nouvelles fonctionnalités.<br>
+                    <a href="https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/mises-a-jour" target="_blank">Importance des mises à jour</a>
+                </li>
+                <li>
+                    <strong>Que faire en cas de perte de mot de passe ?</strong><br>
+                    Réponse : Utilisez la fonction "mot de passe oublié" du site concerné. Si cela ne fonctionne pas, contactez le support du service. Ne partagez jamais vos informations personnelles.<br>
+                    <a href="https://support.google.com/accounts/answer/7682439?hl=fr" target="_blank">Exemple : Récupérer un compte Google</a>
+                </li>
+                <li>
+                    <strong>Quel type de réseau est le plus sûr ?</strong><br>
+                    Réponse : Un réseau privé sécurisé avec un mot de passe fort et un chiffrement WPA3 est généralement le plus sûr. Les réseaux publics sont à éviter pour les activités sensibles.<br>
+                    <a href="https://www.kaspersky.fr/resource-center/preemptive-safety/public-wifi" target="_blank">Sécurité des réseaux Wi-Fi</a>
+                </li>
+                <li>
+                    <strong>Quelle est la première étape en cas de suspicion de piratage ?</strong><br>
+                    Réponse : Déconnectez immédiatement l'appareil d'Internet pour empêcher toute autre activité malveillante, puis changez vos mots de passe depuis un appareil sécurisé.<br>
+                    <a href="https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/compte-pirate-que-faire" target="_blank">Que faire en cas de compte piraté</a>
+                </li>
+                <li>
+                    <strong>Qu'est-ce qu'un cookie ?</strong><br>
+                    Réponse : Un cookie est un petit fichier texte stocké sur votre ordinateur par un site web pour retenir vos préférences ou vous suivre en ligne.<br>
+                    <a href="https://www.cnil.fr/fr/cookies-et-autres-traceurs-la-cnil-publie-de-nouvelles-lignes-directrices" target="_blank">En savoir plus sur les cookies</a>
+                </li>
+                <li>
+                    <strong>Pourquoi est-il important de sauvegarder ses données ?</strong><br>
+                    Réponse : Les sauvegardes protègent contre la perte de données due aux pannes matérielles, aux virus, ou aux erreurs humaines. Elles permettent de récupérer vos informations en cas de problème.<br>
+                    <a href="https://www.cnil.fr/fr/comment-bien-sauvegarder-vos-donnees" target="_blank">Bien sauvegarder ses données</a>
+                </li>
+                <li>
+                    <strong>Que signifie 'attaque par force brute' ?</strong><br>
+                    Réponse : Une attaque par force brute tente de deviner un mot de passe ou une clé en essayant systématiquement toutes les combinaisons possibles.<br>
+                    <a href="https://www.kaspersky.fr/resource-center/definitions/brute-force-attack" target="_blank">En savoir plus sur les attaques par force brute</a>
+                </li>
+                <li>
+                    <strong>Qu'est-ce qu'une attaque DDoS ?</strong><br>
+                    Réponse : Une attaque DDoS (Distributed Denial of Service) vise à rendre un service en ligne indisponible en le submergeant de trafic provenant de multiples sources.<br>
+                    <a href="https://www.cloudflare.com/fr-fr/learning/ddos/what-is-a-ddos-attack/" target="_blank">En savoir plus sur les attaques DDoS</a>
+                </li>
+                <li>
+                    <strong>Que faire si vous recevez un fichier suspect par email ?</strong><br>
+                    Réponse : Ne l'ouvrez pas. Supprimez l'email si vous ne connaissez pas l'expéditeur. Si c'est un contact connu, vérifiez auprès de lui avant d'ouvrir le fichier.<br>
+                    <a href="https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/securite-logiciels-malveillants" target="_blank">Se protéger des logiciels malveillants</a>
+                </li>
+                <li>
+                    <strong>Qu'est-ce que la double authentification ?</strong><br>
+                    Réponse : La double authentification (2FA) est une méthode de sécurité qui requiert deux formes d'identification différentes pour accéder à un compte.<br>
+                    <a href="https://www.cnil.fr/fr/la-double-authentification-une-protection-supplementaire-pour-vos-comptes-en-ligne" target="_blank">En savoir plus sur la double authentification</a>
+                </li>
+            </ol>
         </div>
+        <button id="back-button" onclick="window.location.href='index.html'">Retour</button>
     </div>
 </body>
 </html>

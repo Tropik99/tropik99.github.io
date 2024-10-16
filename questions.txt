@@ -1,0 +1,42 @@
+Qu'est-ce que le 'endpoint security' ?
+Qu'est-ce que le 'patching' en cybersécurité ?
+Qu'est-ce qu'un certificat SSL/TLS ?
+Qu'est-ce que le chiffrement de bout en bout ?
+Quelle est la meilleure pratique pour créer un mot de passe sécurisé ?
+Qu'est-ce qu'une politique de mot de passe ?
+Qu'est-ce que l'authentification à deux facteurs (2FA) ?
+Qu'est-ce que le hachage de mot de passe ?
+Qu'est-ce que le principe du moindre privilège ?
+Qu'est-ce que le 'social engineering' en cybersécurité ?
+Qu'est-ce qu'une analyse de vulnérabilité ?
+Qu'est-ce qu'un pare-feu (firewall) ?
+Qu'est-ce qu'un VPN ?
+Qu'est-ce qu'un logiciel malveillant (malware) ?
+Qu'est-ce que le RGPD ?
+Qu'est-ce qu'une mise à jour de sécurité ?
+Qu'est-ce qu'une attaque par hameçonnage (phishing) ?
+Qu'est-ce qu'une attaque par déni de service (DDoS) ?
+Qu'est-ce qu'une sauvegarde (backup) ?
+Qu'est-ce qu'une politique de sécurité de l'information ?
+
+
+Qu'est-ce que le phishing ?
+Quel est un mot de passe sécurisé ?
+Que signifie HTTPS ?
+Quel est le rôle d'un antivirus ?
+Qu'est-ce qu'un pare-feu ?
+Que signifie 'malware' ?
+Quelle est la meilleure pratique pour les mots de passe ?
+Qu'est-ce qu'un VPN ?
+Comment reconnaître un email frauduleux ?
+Quelle information ne doit jamais être partagée en ligne ?
+Quel est le but d'une mise à jour logicielle ?
+Que faire en cas de perte de mot de passe ?
+Quel type de réseau est le plus sûr ?
+Quelle est la première étape en cas de suspicion de piratage ?
+Qu'est-ce qu'un cookie ?
+Pourquoi est-il important de sauvegarder ses données ?
+Que signifie 'attaque par force brute' ?
+Qu'est-ce qu'une attaque DDoS ?
+Que faire si vous recevez un fichier suspect par email ?
+Qu'est-ce que la double authentification ?

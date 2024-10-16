@@ -4,11 +4,12 @@
     --afpa-light-gray: #f2f2f2;
     --afpa-medium-gray: #d9d9d9;
     --afpa-dark-gray: #4d4d4d;
+    --afpa-dark-green: #84bc24;
 }
 
 /* Ajout de l'image d'arrière-plan */
 body {
-    background-image: url('bg.jpg'); /* Remplacez par le chemin de votre image */
+    background-image: url('../images/bg.jpg'); /* Remplacez par le chemin de votre image */
     background-size: cover; /* Couvre toute la surface */
     background-position: center; /* Centre l'image */
     background-repeat: no-repeat; /* Ne pas répéter l'image */
@@ -26,12 +27,11 @@ body {
 
 .container {
     max-width: 800px;
-    background-color: rgba(255, 255, 255, 0.9); /* Légèrement transparent pour mieux s'harmoniser avec le fond */
+    background-color: #ffffff;
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
-
 
 h1 {
     color: var(--afpa-blue);
@@ -74,7 +74,7 @@ h1 {
 .timer {
     font-size: 1.2rem;
     font-weight: bold;
-    color: var(--afpa-blue);
+    color: var(--afpa-dark-green);
 }
 
 .correct {
@@ -129,75 +129,4 @@ h1 {
     .btn {
         font-size: 0.9rem;
     }
-}
-
- /* Styles pour le modal d'authentification */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    justify-content: center;
-    align-items: center;
-}
-
-.modal-content {
-    background-color: white;
-    padding: 30px;
-    border-radius: 15px;
-    text-align: center;
-    max-width: 400px;
-    width: 100%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.modal-content input {
-    margin: 15px 0;
-    padding: 10px;
-    width: 100%;
-    border: 1px solid var(--afpa-medium-gray);
-    border-radius: 5px;
-}
-
-.btn-submit {
-    background-color: var(--afpa-blue);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.btn-submit:hover {
-    opacity: 0.9;
-}
-
-.btn-close {
-    background-color: #dc3545; /* Rouge pour annuler */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    width: auto; /* Ajustement pour que le bouton soit de la largeur du texte */
-}
-
-.btn-close:hover {
-    opacity: 0.9;
-}
-
-/* Centrage de la modale */
-.modal-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
