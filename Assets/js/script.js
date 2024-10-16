@@ -3,200 +3,200 @@ const questions = [
     {
         question: "Qu'est-ce qu'un pare-feu (firewall) ?",
         options: [
-            "Un logiciel antivirus",
-            "Un dispositif de sécurité réseau",
-            "Un type de mot de passe",
-            "Un protocole de cryptage"
+            "A. Un logiciel antivirus",
+            "B. Un dispositif de sécurité réseau",
+            "C. Un type de mot de passe",
+            "D. Un protocole de cryptage"
         ],
         correctAnswer: 1
     },
     {
         question: "Qu'est-ce qu'une attaque par hameçonnage (phishing) ?",
         options: [
-            "Une tentative de surcharger un serveur",
-            "Une tentative de deviner un mot de passe",
-            "Une tentative de tromper l'utilisateur pour obtenir des informations sensibles",
-            "Une tentative d'intercepter des données sur un réseau Wi-Fi"
+            "A. Une tentative de surcharger un serveur",
+            "B. Une tentative de deviner un mot de passe",
+            "C. Une tentative de tromper l'utilisateur pour obtenir des informations sensibles",
+            "D. Une tentative d'intercepter des données sur un réseau Wi-Fi"
         ],
         correctAnswer: 2
     },
     {
         question: "Quelle est la meilleure pratique pour créer un mot de passe sécurisé ?",
         options: [
-            "Utiliser votre date de naissance",
-            "Utiliser le même mot de passe pour tous vos comptes",
-            "Utiliser une combinaison de lettres, chiffres et caractères spéciaux",
-            "Utiliser le nom de votre animal de compagnie"
+            "A. Utiliser votre date de naissance",
+            "B. Utiliser le même mot de passe pour tous vos comptes",
+            "C. Utiliser une combinaison de lettres, chiffres et caractères spéciaux",
+            "D. Utiliser le nom de votre animal de compagnie"
         ],
         correctAnswer: 2
     },
     {
         question: "Qu'est-ce qu'un VPN ?",
         options: [
-            "Un virus très puissant",
-            "Un réseau privé virtuel",
-            "Un nouveau langage de programmation",
-            "Un type de carte réseau"
+            "A. Un virus très puissant",
+            "B. Un réseau privé virtuel",
+            "C. Un nouveau langage de programmation",
+            "D. Un type de carte réseau"
         ],
         correctAnswer: 1
     },
     {
         question: "Qu'est-ce que le chiffrement de bout en bout ?",
         options: [
-            "Une méthode pour accélérer la connexion Internet",
-            "Une technique pour réduire la taille des fichiers",
-            "Un système où seuls l'expéditeur et le destinataire peuvent lire les messages",
-            "Un type de câble réseau"
+            "A. Une méthode pour accélérer la connexion Internet",
+            "B. Une technique pour réduire la taille des fichiers",
+            "C. Un système où seuls l'expéditeur et le destinataire peuvent lire les messages",
+            "D. Un type de câble réseau"
         ],
         correctAnswer: 2
     },
     {
         question: "Qu'est-ce qu'une attaque par déni de service (DDoS) ?",
         options: [
-            "Une tentative de voler des données",
-            "Une tentative de rendre un service inaccessible en le surchargeant",
-            "Une tentative de prendre le contrôle d'un ordinateur",
-            "Une tentative de deviner un mot de passe"
+            "A. Une tentative de voler des données",
+            "B. Une tentative de rendre un service inaccessible en le surchargeant",
+            "C. Une tentative de prendre le contrôle d'un ordinateur",
+            "D. Une tentative de deviner un mot de passe"
         ],
         correctAnswer: 1
     },
     {
         question: "Qu'est-ce que l'authentification à deux facteurs (2FA) ?",
         options: [
-            "Un système qui nécessite deux mots de passe",
-            "Un système qui utilise deux méthodes différentes pour vérifier l'identité",
-            "Un système qui vérifie l'identité toutes les deux heures",
-            "Un système qui nécessite l'approbation de deux personnes"
+            "A. Un système qui nécessite deux mots de passe",
+            "B. Un système qui utilise deux méthodes différentes pour vérifier l'identité",
+            "C. Un système qui vérifie l'identité toutes les deux heures",
+            "D. Un système qui nécessite l'approbation de deux personnes"
         ],
         correctAnswer: 1
     },
     {
         question: "Qu'est-ce qu'un logiciel malveillant (malware) ?",
         options: [
-            "Un logiciel qui protège contre les virus",
-            "Un logiciel conçu pour endommager ou infiltrer un système informatique",
-            "Un logiciel qui optimise les performances de l'ordinateur",
-            "Un logiciel qui gère les mises à jour système"
+            "A. Un logiciel qui protège contre les virus",
+            "B. Un logiciel conçu pour endommager ou infiltrer un système informatique",
+            "C. Un logiciel qui optimise les performances de l'ordinateur",
+            "D. Un logiciel qui gère les mises à jour système"
         ],
         correctAnswer: 1
     },
     {
         question: "Qu'est-ce que le hachage de mot de passe ?",
         options: [
-            "Une technique pour rendre les mots de passe plus courts",
-            "Une méthode pour stocker les mots de passe de manière sécurisée",
-            "Une attaque pour deviner les mots de passe",
-            "Une façon de partager des mots de passe en toute sécurité"
+            "A. Une technique pour rendre les mots de passe plus courts",
+            "B. Une méthode pour stocker les mots de passe de manière sécurisée",
+            "C. Une attaque pour deviner les mots de passe",
+            "D. Une façon de partager des mots de passe en toute sécurité"
         ],
         correctAnswer: 1
     },
     {
         question: "Qu'est-ce qu'une politique de mot de passe ?",
         options: [
-            "Une loi gouvernementale sur la création de mots de passe",
-            "Un ensemble de règles pour créer et gérer les mots de passe dans une organisation",
-            "Un logiciel qui génère des mots de passe aléatoires",
-            "Un type de cryptage pour les mots de passe"
+            "A. Une loi gouvernementale sur la création de mots de passe",
+            "B. Un ensemble de règles pour créer et gérer les mots de passe dans une organisation",
+            "C. Un logiciel qui génère des mots de passe aléatoires",
+            "D. Un type de cryptage pour les mots de passe"
         ],
         correctAnswer: 1
     },
     {
         question: "Qu'est-ce que le principe du moindre privilège ?",
         options: [
-            "Donner à chaque utilisateur tous les droits d'accès possibles",
-            "Limiter les droits d'accès au minimum nécessaire pour effectuer une tâche",
-            "Interdire tout accès aux systèmes sensibles",
-            "Accorder des privilèges uniquement aux administrateurs"
+            "A. Donner à chaque utilisateur tous les droits d'accès possibles",
+            "B. Limiter les droits d'accès au minimum nécessaire pour effectuer une tâche",
+            "C. Interdire tout accès aux systèmes sensibles",
+            "D. Accorder des privilèges uniquement aux administrateurs"
         ],
         correctAnswer: 1
     },
     {
         question: "Qu'est-ce qu'une mise à jour de sécurité ?",
         options: [
-            "Une nouvelle fonctionnalité ajoutée à un logiciel",
-            "Un correctif qui résout des vulnérabilités de sécurité",
-            "Une augmentation de la vitesse du processeur",
-            "Un changement dans l'interface utilisateur"
+            "A. Une nouvelle fonctionnalité ajoutée à un logiciel",
+            "B. Un correctif qui résout des vulnérabilités de sécurité",
+            "C. Une augmentation de la vitesse du processeur",
+            "D. Un changement dans l'interface utilisateur"
         ],
         correctAnswer: 1
     },
     {
         question: "Qu'est-ce que le 'social engineering' en cybersécurité ?",
         options: [
-            "L'utilisation des réseaux sociaux pour promouvoir la sécurité",
-            "La création de profils de médias sociaux sécurisés",
-            "L'exploitation des faiblesses humaines pour obtenir des informations",
-            "L'analyse des comportements sociaux en ligne"
+            "A. L'utilisation des réseaux sociaux pour promouvoir la sécurité",
+            "B. La création de profils de médias sociaux sécurisés",
+            "C. L'exploitation des faiblesses humaines pour obtenir des informations",
+            "D. L'analyse des comportements sociaux en ligne"
         ],
         correctAnswer: 2
     },
     {
         question: "Qu'est-ce qu'une sauvegarde (backup) ?",
         options: [
-            "Une copie de données stockée séparément pour prévenir la perte de données",
-            "Un type de virus informatique",
-            "Une méthode pour accélérer l'ordinateur",
-            "Un processus de nettoyage du disque dur"
+            "A. Une copie de données stockée séparément pour prévenir la perte de données",
+            "B. Un type de virus informatique",
+            "C. Une méthode pour accélérer l'ordinateur",
+            "D. Un processus de nettoyage du disque dur"
         ],
         correctAnswer: 0
     },
     {
         question: "Qu'est-ce qu'un certificat SSL/TLS ?",
         options: [
-            "Un diplôme en sécurité informatique",
-            "Un document qui authentifie l'identité d'un site web",
-            "Une licence pour utiliser des logiciels de cryptage",
-            "Un type de pare-feu"
+            "A. Un diplôme en sécurité informatique",
+            "B. Un document qui authentifie l'identité d'un site web",
+            "C. Une licence pour utiliser des logiciels de cryptage",
+            "D. Un type de pare-feu"
         ],
         correctAnswer: 1
     },
     {
         question: "Qu'est-ce que le 'patching' en cybersécurité ?",
         options: [
-            "La réparation de câbles réseau endommagés",
-            "L'application de mises à jour pour corriger des vulnérabilités",
-            "La création de nouveaux mots de passe",
-            "Le blocage de l'accès à certains sites web"
+            "A. La réparation de câbles réseau endommagés",
+            "B. L'application de mises à jour pour corriger des vulnérabilités",
+            "C. La création de nouveaux mots de passe",
+            "D. Le blocage de l'accès à certains sites web"
         ],
         correctAnswer: 1
     },
     {
         question: "Qu'est-ce qu'une politique de sécurité de l'information ?",
         options: [
-            "Une loi sur la protection des données",
-            "Un ensemble de règles définissant comment protéger les actifs informationnels",
-            "Un logiciel de sécurité",
-            "Un type de chiffrement"
+            "A. Une loi sur la protection des données",
+            "B. Un ensemble de règles définissant comment protéger les actifs informationnels",
+            "C. Un logiciel de sécurité",
+            "D. Un type de chiffrement"
         ],
         correctAnswer: 1
     },
     {
         question: "Qu'est-ce que le 'endpoint security' ?",
         options: [
-            "La sécurité des serveurs centraux",
-            "La protection des appareils connectés au réseau (ordinateurs, smartphones, etc.)",
-            "La sécurité des câbles réseau",
-            "Un protocole de communication sécurisé"
+            "A. La sécurité des serveurs centraux",
+            "B. La protection des appareils connectés au réseau (ordinateurs, smartphones, etc.)",
+            "C. La sécurité des câbles réseau",
+            "D. Un protocole de communication sécurisé"
         ],
         correctAnswer: 1
     },
     {
         question: "Qu'est-ce qu'une analyse de vulnérabilité ?",
         options: [
-            "Un examen médical pour les professionnels de l'informatique",
-            "Un processus pour identifier les faiblesses dans les systèmes informatiques",
-            "Une méthode pour tester la vitesse d'un réseau",
-            "Une technique pour améliorer les performances des logiciels"
+            "A. Un examen médical pour les professionnels de l'informatique",
+            "B. Un processus pour identifier les faiblesses dans les systèmes informatiques",
+            "C. Une méthode pour tester la vitesse d'un réseau",
+            "D. Une technique pour améliorer les performances des logiciels"
         ],
         correctAnswer: 1
     },
     {
         question: "Qu'est-ce que le RGPD ?",
         options: [
-            "Un nouveau type de câble réseau",
-            "Un virus informatique très dangereux",
-            "Le Règlement Général sur la Protection des Données",
-            "Un protocole de sécurité pour les e-mails"
+            "A. Un nouveau type de câble réseau",
+            "B. Un virus informatique très dangereux",
+            "C. Le Règlement Général sur la Protection des Données",
+            "D. Un protocole de sécurité pour les e-mails"
         ],
         correctAnswer: 2
     }
